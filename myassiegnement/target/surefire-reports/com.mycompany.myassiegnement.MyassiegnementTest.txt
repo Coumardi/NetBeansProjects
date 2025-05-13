@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.myassiegnement.MyassiegnementTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! -- in com.mycompany.myassiegnement.MyassiegnementTest
+com.mycompany.myassiegnement.MyassiegnementTest.testMain -- Time elapsed: 0.026 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.mycompany.myassiegnement.MyassiegnementTest.testMain(MyassiegnementTest.java:48)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.myassiegnement.MyassiegnementTest.testToString -- Time elapsed: 0.005 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <0 -->  is not a prime number>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at com.mycompany.myassiegnement.MyassiegnementTest.testToString(MyassiegnementTest.java:88)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.myassiegnement.MyassiegnementTest.testIterate -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.mycompany.myassiegnement.MyassiegnementTest.testIterate(MyassiegnementTest.java:75)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+com.mycompany.myassiegnement.MyassiegnementTest.testIsPrimeNumber -- Time elapsed: 0.002 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: The test case is a prototype.
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:138)
+	at com.mycompany.myassiegnement.MyassiegnementTest.testIsPrimeNumber(MyassiegnementTest.java:63)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

@@ -1,0 +1,6 @@
+com\mycompany\thermost\ThermostSuite.class
+com\ComSuite.class
+ThermostatTest$MockProgrammedSettings.class
+com\mycompany\MycompanySuite.class
+com\mycompany\thermost\ThermostTest.class
+ThermostatTest.class
